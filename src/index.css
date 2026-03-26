@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: all;
+}
+
+;
+
+/* ১. গুগল ফন্ট ইমপোর্ট */
+@import url('https://fonts.googleapis.com');
+
+/* ২. Tailwind v4 থিম কনফিগারেশন */
+@theme {
+  --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+
+  --content-width: 1720px;
+}
+
+:root {
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+  /* পেজ স্ক্রলিং স্মুথ করার জন্য */
+}
+
+@utility my-container {
+  max-width: var(--content-width);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@utility capitalize {
+  text-transform: capitalize;
+}
+
+body {
+  @apply bg-base-100 text-base-content;
+  /* daisyUI থিম অনুযায়ী কালার সেট হবে */
+  margin: 0;
+  min-height: 100vh;
+}
