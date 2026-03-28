@@ -14,6 +14,5 @@ export const useTheme = () => {
     document.querySelector('html').setAttribute('data-theme', theme);
   }, [theme]);
 
-  // এখান থেকে প্রয়োজনীয় সবকিছু রিটার্ন করুন
   return { theme, toggleTheme, themeName };
 };

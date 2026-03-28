@@ -1,3 +1,5 @@
+/* ১. গুগল ফন্ট ইমপোর্ট */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 @plugin "daisyui" {
@@ -6,17 +8,16 @@
 
 ;
 
-/* ১. গুগল ফন্ট ইমপোর্ট */
-@import url('https://fonts.googleapis.com');
 
 /* ২. Tailwind v4 থিম কনফিগারেশন */
 @theme {
-  --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Roboto", sans-serif;
 
   --content-width: 1720px;
 }
 
-:root {
+:root,
+body {
   font-family: var(--font-sans);
   scroll-behavior: smooth;
   /* পেজ স্ক্রলিং স্মুথ করার জন্য */

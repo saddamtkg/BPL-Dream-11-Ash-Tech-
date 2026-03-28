@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Shakib Al Hasan",
+    "image": "https://i.ibb.co.com/3yHkT9Zp/Shakib-Al-Hasan.avif",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "rating": 9.5,
+    "batStyle": "Left-hand bat",
+    "bowlStyle": "Left-arm orthodox",
+    "price": 1500
+  },
+  {
+    "id": 2,
+    "name": "Jos Buttler",
+    "image": "https://i.ibb.co.com/8Dk05d7W/Jos-Buttler.png",
+    "country": "England",
+    "role": "Wicketkeeper Batsman",
+    "rating": 9.2,
+    "batStyle": "Right-hand bat",
+    "bowlStyle": "N/A",
+    "price": 1800
+  },
+  {
+    "id": 3,
+    "name": "Rashid Khan",
+    "image": "https://i.ibb.co.com/GfsVGHWr/rashid-khan.webp",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "rating": 9.0,
+    "batStyle": "Right-hand bat",
+    "bowlStyle": "Legbreak googly",
+    "price": 1400
+  },
+  {
+    "id": 4,
+    "name": "Andre Russell",
+    "image": "https://i.ibb.co.com/RTP6hLJx/Andre-Russell.webp",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "rating": 8.8,
+    "batStyle": "Right-hand bat",
+    "bowlStyle": "Right-arm fast",
+    "price": 1300
+  },
+  {
+    "id": 5,
+    "name": "Mustafizur Rahman",
+    "image": "https://i.ibb.co.com/n84Nr5py/Mustafizur-Rahman.webp",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "rating": 8.5,
+    "batStyle": "Left-hand bat",
+    "bowlStyle": "Left-arm fast-medium",
+    "price": 950
+  },
+  {
+    "id": 6,
+    "name": "Babar Azam",
+    "image": "https://i.ibb.co.com/jZvRq1mp/Babar-Azam.jpg",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "rating": 9.3,
+    "batStyle": "Right-hand bat",
+    "bowlStyle": "N/A",
+    "price": 1600
+  },
+  {
+    "id": 7,
+    "name": "Suryakumar Yadav",
+    "image": "https://i.ibb.co.com/tpGFhvvX/Suryakumar-Yadav.jpg",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 9.1,
+    "batStyle": "Right-hand bat",
+    "bowlStyle": "N/A",
+    "price": 1250
+  },
+  {
+    "id": 8,
+    "name": "Towhid Hridoy",
+    "image": "https://i.ibb.co.com/rfxyfGtR/Towhid-Hridoy.webp",
+    "country": "Bangladesh",
+    "role": "Batsman",
+    "rating": 7.8,
+    "batStyle": "Right-hand bat",
+    "bowlStyle": "N/A",
+    "price": 650
+  },
+  {
+    "id": 9,
+    "name": "Glenn Maxwell",
+    "image": "https://i.ibb.co.com/WvxMmDv9/Glenn-Maxwell.webp",
+    "country": "Australia",
+    "role": "All-rounder",
+    "rating": 8.9,
+    "batStyle": "Right-hand bat",
+    "bowlStyle": "Right-arm off break",
+    "price": 1150
+  },
+  {
+    "id": 10,
+    "name": "Mehidy Hasan Miraz",
+    "image": "https://i.ibb.co.com/NdbDsFDk/Mehidy-Hasan-Miraz.jpg",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "rating": 8.7,
+    "batStyle": "Right-hand bat",
+    "bowlStyle": "Right-arm off break",
+    "price": 850
+  },
+  {
+    "id": 11,
+    "name": "Mohammad Rizwan",
+    "image": "https://i.ibb.co.com/6Rj826MG/Mohammad-Rizwan.avif",
+    "country": "Pakistan",
+    "role": "Wicketkeeper Batsman",
+    "rating": 9.4,
+    "batStyle": "Right-hand bat",
+    "bowlStyle": "N/A",
+    "price": 1700
+  },
+  {
+    "id": 12,
+    "name": "Nicholas Pooran",
+    "image": "https://i.ibb.co.com/MFCr3b9/Nicholas-Pooran.jpg",
+    "country": "West Indies",
+    "role": "Batsman",
+    "rating": 9.2,
+    "batStyle": "Left-hand bat",
+    "bowlStyle": "Right-arm off break",
+    "price": 1450
+  }
+]
