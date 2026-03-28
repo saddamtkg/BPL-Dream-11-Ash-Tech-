@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import HeroSection from './Componants/HomePage/HeroSection';
-import PlayersAvailable from './Componants/HomePage/PlayersAvailable';
+import AllPlayers from './Componants/HomePage/AllPlayers';
 import Navbar from './Componants/Navbar/Navbar';
 
 const fetchPlayer = async () => {
@@ -22,7 +22,7 @@ function App() {
           </div>
         }
       >
-        <PlayersAvailable playersPromise={playersPromise} />
+        <AllPlayers playersPromise={playersPromise} />
       </Suspense>
     </>
   );
