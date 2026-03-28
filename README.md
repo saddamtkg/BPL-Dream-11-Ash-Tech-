@@ -1,4 +1,6 @@
-[![Live Demo](https://img.shields.io)](https://bpl-dream-11-ash-tech.netlify.app/)
+## 🔗 Links
+🌐 **Live Site:** [BPL Dream 11](https://bpl-dream-11-ash-tech.netlify.app/)
+
 
 
 # React + Vite
