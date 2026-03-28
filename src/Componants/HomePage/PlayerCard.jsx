@@ -5,10 +5,10 @@ const PlayerCard = ({ player }) => {
   console.log(player);
   return (
     <div>
-      <div className="card bg-base-100 shadow-sm">
-        <figure>
+      <div className="grid-card card bg-base-100 shadow-sm">
+        <figure className="card__img-wrap">
           <img
-            className="h-85 w-full max-w-full object-cover"
+            className="grid-card__img h-60 w-full max-w-full object-cover"
             src={player.image}
             alt={player.name}
             loading="lazy"
