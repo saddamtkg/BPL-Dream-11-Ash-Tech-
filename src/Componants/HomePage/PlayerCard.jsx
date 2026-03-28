@@ -7,7 +7,12 @@ const PlayerCard = ({ player }) => {
     <div>
       <div className="card bg-base-100 shadow-sm">
         <figure>
-          <img className='h-[350px] w-full max-w-[100%] object-cover' src={player.image} alt={player.name} />
+          <img
+            className="h-85 w-full max-w-full object-cover"
+            src={player.image}
+            alt={player.name}
+            loading="lazy"
+          />
         </figure>
         <div className="card-body">
           <div className="flex gap-4 items-center">
@@ -19,7 +24,7 @@ const PlayerCard = ({ player }) => {
               <FaFlag />
               <p>{player.country}</p>
             </span>
-            <span className="text-[14px] py-1.5 px-2.5 rounded-[5px] bg-[#D9D9D9]">
+            <span className="text-[14px] font-semibold py-1.5 px-2.5 rounded-[5px] hover:text-amber-600 duration-300 bg-[#D9D9D9]">
               {player.role}
             </span>
           </div>
